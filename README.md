@@ -1,5 +1,5 @@
 <h1>LeetCode Solutions Repository</h1>
-Welcome to my LeetCode solutions repository! Here, you'll find my solutions to various LeetCode problems organized for easy reference. Whether you're a fellow coder looking for insights, or you stumbled upon this repository seeking guidance, I hope you find what you need.
+Welcome to my LeetCode solutions repository! Here, you'll find my solutions to various LeetCode problems in CPP organized for easy reference. Whether you're a fellow coder looking for insights, or you stumbled upon this repository seeking guidance, I hope you find what you need.
 <h2> About LeetCode</h2>
 <a href="https://leetcode.com/" target=_blank title = "leetcode.com"> LeetCode </a>is a platform that offers a vast array of coding challenges to help developers enhance their problem-solving skills. The problems cover a wide range of topics and difficulty levels, making it an invaluable resource for anyone looking to improve their coding abilities.
 <h2>How to Use</h2>
