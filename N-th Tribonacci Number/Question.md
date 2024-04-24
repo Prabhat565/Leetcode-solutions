@@ -1,4 +1,4 @@
-<h1> <a href= "https://leetcode.com/problems/count-the-number-of-special-characters-i/description/" target = "_blank">3120. Count the Number of Special Characters I</a></h1>
+<h1> <a href= "https://leetcode.com/problems/n-th-tribonacci-number/description/" target = "_blank">3120. Count the Number of Special Characters I</a></h1>
 <h4>
 You are given a string word. A letter is called special if it appears both in lowercase and uppercase in word.
 
