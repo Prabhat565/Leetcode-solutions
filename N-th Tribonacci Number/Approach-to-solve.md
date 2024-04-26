@@ -10,6 +10,7 @@ The Tribonacci sequence is a generalization of the Fibonacci sequence, where eac
     <li>If n is 0 or 1, return n as the result since the sequence starts with 0, 1, 1.</li>
   <li>Use a for loop starting from i = 3 to n.</li>
     <li>In each iteration, compute the sum of the last three terms (a, b, and c) and update the variables accordingly.</li>
+<<<<<<< HEAD
     <li>After the loop, the value of c will represent the nth term of the Tribonacci sequence. </li>
     <li>Return the value of c as the result.</li>
   </ul>
@@ -20,17 +21,38 @@ The Tribonacci sequence is a generalization of the Fibonacci sequence, where eac
             return n;
         }
 
+=======
+    <li>After the loop, the value of c will represent the nth term of the Tribonacci sequence. +</li>
+    <li>Return the value of c as the result.</li>
+  </ul>
+
+  
+        int a = 0, b = 1, c = 1;
+        
+        if (n == 0 || n == 1) {
+            return n;
+        }
+        
+>>>>>>> ae9917feeb2a6b3a1183b7502f8a6efda2d05aae
         for (int i = 3; i <= n; i++) {
             int sum = a + b + c;
             a = b;
             b = c;
             c = sum;
         }
+<<<<<<< HEAD
 
         return c;
     }
 
 \*\*(For full code , refer to the .cpp file)
+=======
+        
+        return c;
+    }
+
+**(For full code , refer to the .cpp file)
+>>>>>>> ae9917feeb2a6b3a1183b7502f8a6efda2d05aae
 
 <h2>Complexity Analysis</h2>
 <ul>
@@ -40,3 +62,7 @@ The Tribonacci sequence is a generalization of the Fibonacci sequence, where eac
   <li><h3>Space Complexity: O(1)</h3>
 <span> - The solution uses only a constant amount of extra space.</span></li>
 </ul>
+<<<<<<< HEAD
+=======
+
+>>>>>>> ae9917feeb2a6b3a1183b7502f8a6efda2d05aae

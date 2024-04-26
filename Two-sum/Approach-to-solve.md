@@ -50,6 +50,10 @@ In the given input array, nums[0] + nums[1] = 2 + 7 = 9, which matches the targe
     }
     return ans;
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> ae9917feeb2a6b3a1183b7502f8a6efda2d05aae
 \*\*(For full code , refer to the .cpp file)
 
 <h2>Complexity Analysis</h2>
@@ -61,6 +65,10 @@ In the given input array, nums[0] + nums[1] = 2 + 7 = 9, which matches the targe
 <span> - since we are not using any additional data structures.</span></li>
 </ul>
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> ae9917feeb2a6b3a1183b7502f8a6efda2d05aae
 <hr>
   <h2>Approach2: Optimal Apporoach</h2>
  <h3>1. Optimal Solution: Using an unordered maps and 2 loops(not nested):</h3>
@@ -72,6 +80,10 @@ In the given input array, nums[0] + nums[1] = 2 + 7 = 9, which matches the targe
     <li>If the complement exists and it's not the same element, it adds the current index i and the index of the complement stored in the map to the result vector ans.</li>
   </ul>
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> ae9917feeb2a6b3a1183b7502f8a6efda2d05aae
 <h3>Code Explanation:</h3>
   <ul>
     <li>Step 1: Initialization: <ul>
@@ -93,6 +105,10 @@ In the given input array, nums[0] + nums[1] = 2 + 7 = 9, which matches the targe
 
   </ul>
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> ae9917feeb2a6b3a1183b7502f8a6efda2d05aae
        vector<int> ans;
        unordered_map<int, int> hash;
 
@@ -124,6 +140,11 @@ In the given input array, nums[0] + nums[1] = 2 + 7 = 9, which matches the targe
 <span> - due to the additional space required for the unordered_map.</span></li>
 </ul>
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> ae9917feeb2a6b3a1183b7502f8a6efda2d05aae
 <hr>
   <h2>Approach3: Most Optimal Apporoach: </h2>
  <h3>1. Optimal Solution:Using unordered_map and One For Loop:</h3>
@@ -137,6 +158,11 @@ In the given input array, nums[0] + nums[1] = 2 + 7 = 9, which matches the targe
     <li>Update the unordered_map hash by inserting or updating the current element nums[i] and its index i.</li></ul>
   </ul>
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> ae9917feeb2a6b3a1183b7502f8a6efda2d05aae
     unordered_map<int, int> hash;
     vector<int> ans;
 
@@ -161,3 +187,10 @@ In the given input array, nums[0] + nums[1] = 2 + 7 = 9, which matches the targe
   <li><h3>Space Complexity: 𝑂(𝑛)</h3>
 <span> - due to the additional space required for the unordered_map.</span></li>
 </ul>
+<<<<<<< HEAD
+=======
+
+
+
+
+>>>>>>> ae9917feeb2a6b3a1183b7502f8a6efda2d05aae

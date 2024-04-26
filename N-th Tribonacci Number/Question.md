@@ -4,7 +4,7 @@ You are given a string word. A letter is called special if it appears both in lo
 
 Return the number of special letters in word.
 
-Example 1:
+Example - 1:
 
 Input: word = "aaAbcBC"
 
